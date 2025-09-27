@@ -20,9 +20,7 @@ function DrumsScreen() {
   const kickBassPlayer = useAudioPlayer(kickBassSource);
   const crashPlayer = useAudioPlayer(crashSource);
   return (
-    <SafeAreaView
-      style={{ flex: 1, gap: 30, justifyContent: "center", marginBottom: 30 }}
-    >
+    <SafeAreaView style={{ flex: 1, gap: 30, justifyContent: "center" }}>
       <Text style={{ textAlign: "center", fontSize: 30, fontWeight: 700 }}>
         Drum Kits
       </Text>
@@ -129,6 +127,7 @@ const styles = StyleSheet.create({
   image: {
     width: 100,
     height: 100,
+    resizeMode: "contain",
   },
 });
 

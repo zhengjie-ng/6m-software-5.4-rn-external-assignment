@@ -60,7 +60,6 @@ const styles = StyleSheet.create({
     textTransform: "uppercase",
   },
   buttonPressed: {
-    opacity: 0.8,
     transform: [{ translateY: 3 }],
   },
 });
